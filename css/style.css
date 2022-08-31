@@ -1,0 +1,177 @@
+*    {
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+a:hover {
+    color: #640000;
+}
+
+.header img {
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.section-about {
+    height: 640px;
+    background-image: url(../img/01-Картинка-фона.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 0 20px 0;
+    position: relative;
+    
+    
+}
+
+.section-inside {
+
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8)0%,rgba(234,156,65,0.8)100%);
+    position: absolute;
+    top: 54%;
+    left: 50.5%;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+
+.Inner_border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    position: relative;
+    padding-top: 17px;
+    padding-left: 28px;
+    padding-right: 28px;
+    
+}
+
+.teg_p_section_inside_title {
+    font-size: 36px;
+    margin-bottom: 9px;
+    font-family: arial;
+    font-weight: 500;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.teg_p_section_inside_text {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+.three_icons {
+    text-align: center;
+}
+
+.ul_icons li {
+    width: 290px;
+    height: 290px;
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.text_section_after_icons  {
+    text-align: center;
+    
+}
+
+.text_section_after_icons h6 {
+
+    margin-bottom: 20px ;
+    font-size: 96px;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+
+.text_section_after_icons span {
+    color: #f15b40;
+}
+
+.text_section_after_icons div {
+    width: 1000px; 
+    margin: 0 auto;
+}
+
+#teg_p_in_text_section_after_icons {
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+#teg_p_befor_map{
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+#section_map {
+    border: 1px black;
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-color:rgb(30, 38, 38);
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+
+
+#section_line_after_map {
+    width: 1024px;
+    height: 1px;
+    background-color: #999999;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+footer {
+    height: 80px;
+}
